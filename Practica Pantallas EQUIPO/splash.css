@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.phone-frame {
+  background-color: #ff8000;
+  border: 16px solid #444;
+  border-radius: 24px;
+  overflow: hidden;
+  width: 250px;
+  height: 500px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+
+.title {
+  position: absolute;
+  top: 8.2em;
+  left: 35px;
+  color: wheat;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.splash-container {
+  text-align: center;
+}
+
+.splash-icon {
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  background-color: #ffffff;
+  border-radius: 50%;
+  margin-top: 70%;
+}
+
+.image {
+  width: 80px;
+  height: 80px;
+  margin-top: 10px;
+}
